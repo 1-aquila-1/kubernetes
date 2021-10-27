@@ -15,7 +15,7 @@ spec:
           image: aluracursos/mysql-db:1
           resources:
             limits:
-              memory: "128Mi"
+              memory: "2Gi"
               cpu: "250m"
           ports:
             - containerPort: 3306
