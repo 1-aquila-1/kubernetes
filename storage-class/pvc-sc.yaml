@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: pvc2
+  name: pvc-sc
 spec:
   storageClassName: "slow"
   accessModes:
